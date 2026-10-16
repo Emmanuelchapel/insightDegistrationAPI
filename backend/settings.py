@@ -44,7 +44,7 @@ ALLOWED_HOSTS = [
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "http://127.0.0.1:8000",
-    ".vercel.app",
+    "https://indsightdevacadamy-beta.vercel.app"
 ]
 
 # Application definition
