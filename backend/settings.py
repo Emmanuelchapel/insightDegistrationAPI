@@ -37,13 +37,14 @@ DEBUG = os.getenv("DEBUG", "False").lower() == "true"
 ALLOWED_HOSTS = [
     "localhost",
     "127.0.0.1",
-     ".vercel.app", ".vercel.app",
+     ".vercel.app", 
 ]
 
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "http://127.0.0.1:8000",
+    ".vercel.app",
 ]
 
 # Application definition
